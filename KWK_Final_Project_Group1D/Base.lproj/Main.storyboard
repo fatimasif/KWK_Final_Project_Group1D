@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title=""/>
                                 <connections>
-                                    <segue destination="cdM-o1-6k8" kind="show" id="Uvv-tm-eJ4"/>
+                                    <segue destination="ZyQ-29-HV8" kind="show" id="8fb-1L-Bw2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDp-TB-9aN">
@@ -106,30 +106,69 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92385403580000003" green="0.8980755305" blue="0.79461032490000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eoE-F2-TUI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="84.375"/>
+            <point key="canvasLocation" x="36" y="84"/>
         </scene>
         <!--bedroomViewController-->
-        <scene sceneID="NW6-ak-scy">
+        <scene sceneID="gkN-hF-VsO">
             <objects>
-                <viewController title="bedroomViewController" modalPresentationStyle="fullScreen" id="cdM-o1-6k8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="SKC-mK-PNy"/>
+                <viewController title="bedroomViewController" modalPresentationStyle="fullScreen" id="ZyQ-29-HV8" customClass="bedroomViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3J2-rT-s1I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyN-mE-RfL">
+                                <rect key="frame" x="82" y="741" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55319748710000005" green="0.55319748710000005" blue="0.55319748710000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.66185339147010303" green="0.61956106248822773" blue="0.58595856201031182" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.6618533915" green="0.61956106249999998" blue="0.58595856199999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bYj-oE-JA2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="94U-pl-kzC"/>
+                        <color key="backgroundColor" red="0.92385403580000003" green="0.86696419749999998" blue="0.81633779370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vJs-cD-wQc"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L0V-4y-TeV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdz-Xh-ZVz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="768" y="84"/>
+            <point key="canvasLocation" x="755" y="84"/>
         </scene>
         <!--closetViewController-->
         <scene sceneID="SD5-cP-oud">
             <objects>
-                <viewController title="closetViewController" modalPresentationStyle="fullScreen" id="7bg-yL-Oyi" sceneMemberID="viewController">
+                <viewController title="closetViewController" modalPresentationStyle="fullScreen" id="7bg-yL-Oyi" customClass="closetViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LzR-LG-TGo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNr-jv-FYb">
+                                <rect key="frame" x="82" y="739" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.57069543869999995" green="0.48691307319999999" blue="0.77661887890000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57069543865830308" green="0.48691307323267075" blue="0.77661887886597936" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.57069543869999995" green="0.48691307319999999" blue="0.77661887890000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="JKD-08-GCx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Mzy-XV-DZT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91487868202585665" green="0.83387025721163344" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="I2Z-Ez-S1S"/>
                 </viewController>
@@ -140,12 +179,28 @@
         <!--bathroomViewController-->
         <scene sceneID="M0l-eg-BFB">
             <objects>
-                <viewController title="bathroomViewController" modalPresentationStyle="fullScreen" id="JkF-lO-xJY" sceneMemberID="viewController">
+                <viewController title="bathroomViewController" modalPresentationStyle="fullScreen" id="JkF-lO-xJY" customClass="bathroomViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h0k-cG-EQ7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0q-Zz-KNg">
+                                <rect key="frame" x="82" y="733" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33751892119999999" green="0.69789257569999996" blue="0.82641349870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.33751892117353582" green="0.69789257568117957" blue="0.82641349871134018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.33751892119999999" green="0.69789257569999996" blue="0.82641349870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cPM-os-6I3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QsX-nc-gkX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72072660357249529" green="0.91628047698635096" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="T6K-Ne-LCC"/>
                 </viewController>
@@ -156,44 +211,92 @@
         <!--livingRoomViewController-->
         <scene sceneID="8WB-k7-BK7">
             <objects>
-                <viewController title="livingRoomViewController" modalPresentationStyle="fullScreen" id="jeF-Rk-1Kc" sceneMemberID="viewController">
+                <viewController title="livingRoomViewController" modalPresentationStyle="fullScreen" id="jeF-Rk-1Kc" customClass="livingRoomViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F9V-BC-MIa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dek-2b-KLz">
+                                <rect key="frame" x="82" y="725" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23134354169999999" green="0.512240637" blue="0.8486227448" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.23134354169999999" green="0.512240637" blue="0.8486227448" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.23134354169999999" green="0.512240637" blue="0.8486227448" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="W2f-0q-mzT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Z8q-ND-O2H"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.58655088470263839" green="0.79503341905257008" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Ln-4K-rWc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PNG-di-6tQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2813" y="84"/>
+            <point key="canvasLocation" x="2811.594202898551" y="83.705357142857139"/>
         </scene>
         <!--kitchenViewController-->
         <scene sceneID="Tqg-JG-jGW">
             <objects>
-                <viewController title="kitchenViewController" modalPresentationStyle="fullScreen" id="o0t-e2-3Un" sceneMemberID="viewController">
+                <viewController title="kitchenViewController" modalPresentationStyle="fullScreen" id="o0t-e2-3Un" customClass="kitchenViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2TR-nC-hyJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auS-sC-wZn">
+                                <rect key="frame" x="82" y="724" width="250" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90395457469999996" green="0.5364322976" blue="0.57746435039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.90395457474226804" green="0.53643229756205513" blue="0.57746435042848032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.90395457469999996" green="0.5364322976" blue="0.57746435039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="UJT-Qh-6na"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3LN-A6-5wv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.7851100855175861" blue="0.80489160765254852" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="M7u-Gm-MXA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPk-sA-zg5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3516" y="84"/>
+            <point key="canvasLocation" x="3515.9420289855075" y="83.705357142857139"/>
         </scene>
         <!--extraInformationViewController-->
         <scene sceneID="YbT-JT-aUl">
             <objects>
-                <viewController title="extraInformationViewController" modalPresentationStyle="fullScreen" id="GFq-xW-8Ih" sceneMemberID="viewController">
+                <viewController title="extraInformationViewController" modalPresentationStyle="fullScreen" id="GFq-xW-8Ih" customClass="extraInformationViewController" customModule="KWK_Final_Project_Group1D" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lD3-oE-ttj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKp-q3-Uvz">
+                                <rect key="frame" x="82" y="722" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55319748710000005" green="0.55319748710000005" blue="0.55319748710000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.55319748709690719" green="0.55319748709690719" blue="0.55319748709690719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose a New Room">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.55319748710000005" green="0.55319748710000005" blue="0.55319748710000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="RO0-c5-5XO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ShS-CL-Ley"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.80060003221649478" green="0.80060003221649478" blue="0.80060003221649478" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="jcJ-c5-4IC"/>
                 </viewController>
@@ -202,13 +305,13 @@
             <point key="canvasLocation" x="4209" y="84"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="RO0-c5-5XO"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="house" width="706" height="672"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -14,6 +14,12 @@
 		B533145228871027001DBEE7 /* KWK_Final_Project_Group1D.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B533145028871027001DBEE7 /* KWK_Final_Project_Group1D.xcdatamodeld */; };
 		B533145428871028001DBEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B533145328871028001DBEE7 /* Assets.xcassets */; };
 		B533145728871028001DBEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B533145528871028001DBEE7 /* LaunchScreen.storyboard */; };
+		B5C57A8628884B6C00198A76 /* bedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A8528884B6C00198A76 /* bedroomViewController.swift */; };
+		B5C57A8828884C1500198A76 /* closetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A8728884C1500198A76 /* closetViewController.swift */; };
+		B5C57A8A28884D4300198A76 /* bathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A8928884D4300198A76 /* bathroomViewController.swift */; };
+		B5C57A8C28884D9B00198A76 /* livingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A8B28884D9B00198A76 /* livingRoomViewController.swift */; };
+		B5C57A8E28884DC900198A76 /* kitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A8D28884DC900198A76 /* kitchenViewController.swift */; };
+		B5C57A9428884E3000198A76 /* extraInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C57A9328884E3000198A76 /* extraInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		B533145328871028001DBEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B533145628871028001DBEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B533145828871028001DBEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C57A8528884B6C00198A76 /* bedroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bedroomViewController.swift; sourceTree = "<group>"; };
+		B5C57A8728884C1500198A76 /* closetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closetViewController.swift; sourceTree = "<group>"; };
+		B5C57A8928884D4300198A76 /* bathroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bathroomViewController.swift; sourceTree = "<group>"; };
+		B5C57A8B28884D9B00198A76 /* livingRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livingRoomViewController.swift; sourceTree = "<group>"; };
+		B5C57A8D28884DC900198A76 /* kitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitchenViewController.swift; sourceTree = "<group>"; };
+		B5C57A9328884E3000198A76 /* extraInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +73,17 @@
 				B533144728871027001DBEE7 /* AppDelegate.swift */,
 				B533144928871027001DBEE7 /* SceneDelegate.swift */,
 				B533144B28871027001DBEE7 /* ViewController.swift */,
+				B5C57A8528884B6C00198A76 /* bedroomViewController.swift */,
+				B5C57A8728884C1500198A76 /* closetViewController.swift */,
+				B5C57A8928884D4300198A76 /* bathroomViewController.swift */,
+				B5C57A8B28884D9B00198A76 /* livingRoomViewController.swift */,
+				B5C57A8D28884DC900198A76 /* kitchenViewController.swift */,
 				B533144D28871027001DBEE7 /* Main.storyboard */,
 				B533145328871028001DBEE7 /* Assets.xcassets */,
 				B533145528871028001DBEE7 /* LaunchScreen.storyboard */,
 				B533145828871028001DBEE7 /* Info.plist */,
 				B533145028871027001DBEE7 /* KWK_Final_Project_Group1D.xcdatamodeld */,
+				B5C57A9328884E3000198A76 /* extraInformationViewController.swift */,
 			);
 			path = KWK_Final_Project_Group1D;
 			sourceTree = "<group>";
@@ -142,9 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B533144C28871027001DBEE7 /* ViewController.swift in Sources */,
+				B5C57A8628884B6C00198A76 /* bedroomViewController.swift in Sources */,
 				B533144828871027001DBEE7 /* AppDelegate.swift in Sources */,
 				B533144A28871027001DBEE7 /* SceneDelegate.swift in Sources */,
+				B5C57A8828884C1500198A76 /* closetViewController.swift in Sources */,
+				B5C57A8A28884D4300198A76 /* bathroomViewController.swift in Sources */,
+				B5C57A8C28884D9B00198A76 /* livingRoomViewController.swift in Sources */,
 				B533145228871027001DBEE7 /* KWK_Final_Project_Group1D.xcdatamodeld in Sources */,
+				B5C57A9428884E3000198A76 /* extraInformationViewController.swift in Sources */,
+				B5C57A8E28884DC900198A76 /* kitchenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
