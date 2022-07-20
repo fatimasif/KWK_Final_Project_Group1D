@@ -134,6 +134,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="bYj-oE-JA2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BEDROOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oO2-pT-4x4">
+                                <rect key="frame" x="133" y="61" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.86078917980000003" green="0.68165690700000003" blue="0.5533286717" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="94U-pl-kzC"/>
                         <color key="backgroundColor" red="0.92385403580000003" green="0.86696419749999998" blue="0.81633779370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -166,6 +174,35 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="JKD-08-GCx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLOSET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcq-2s-0Yj">
+                                <rect key="frame" x="133" y="63" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.69804759909059255" green="0.48835837218291406" blue="0.73636130732525262" alpha="0.79571088576158944" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRd-y4-UTK">
+                                <rect key="frame" x="127" y="328" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgc-vt-I2e">
+                                <rect key="frame" x="137" y="338" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIf-Hq-AnC">
+                                <rect key="frame" x="20" y="123" width="49" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mzy-XV-DZT"/>
                         <color key="backgroundColor" red="0.91487868202585665" green="0.83387025721163344" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -174,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSG-Wr-bX4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1449" y="84"/>
+            <point key="canvasLocation" x="1446.376811594203" y="83.705357142857139"/>
         </scene>
         <!--bathroomViewController-->
         <scene sceneID="M0l-eg-BFB">
@@ -198,6 +235,21 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="cPM-os-6I3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BATHROOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pw-vH-tVX">
+                                <rect key="frame" x="113" y="67" width="189" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.29840234912813363" green="0.56398433307812346" blue="0.72266970378989903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugY-uO-bqv">
+                                <rect key="frame" x="34" y="128" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QsX-nc-gkX"/>
                         <color key="backgroundColor" red="0.72072660357249529" green="0.91628047698635096" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -206,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nh0-Zh-mV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2128" y="84"/>
+            <point key="canvasLocation" x="2127.536231884058" y="83.705357142857139"/>
         </scene>
         <!--livingRoomViewController-->
         <scene sceneID="8WB-k7-BK7">
@@ -230,6 +282,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="W2f-0q-mzT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIVING ROOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09U-fZ-BlQ">
+                                <rect key="frame" x="96" y="64" width="222" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.087812532952130082" green="0.64715833082211094" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z8q-ND-O2H"/>
                         <color key="backgroundColor" red="0.58655088470263839" green="0.79503341905257008" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -262,6 +322,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="UJT-Qh-6na"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KITCHEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRa-oC-N0L">
+                                <rect key="frame" x="133" y="63" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.86078917980000003" green="0.56874007017822703" blue="0.67726067837453285" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3LN-A6-5wv"/>
                         <color key="backgroundColor" red="1" green="0.7851100855175861" blue="0.80489160765254852" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -294,6 +362,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="RO0-c5-5XO"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ps4-jD-EUv">
+                                <rect key="frame" x="133" y="93" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="0.86078917980000003" green="0.68165690700000003" blue="0.5533286717" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ShS-CL-Ley"/>
                         <color key="backgroundColor" red="0.80060003221649478" green="0.80060003221649478" blue="0.80060003221649478" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -306,7 +382,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RO0-c5-5XO"/>
+        <segue reference="JKD-08-GCx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="house" width="706" height="672"/>
